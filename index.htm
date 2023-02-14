@@ -56,7 +56,7 @@ style='font-size:18.0pt;line-height:107%'>SQL injection</span></u></b></p>
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>SQL injection is a Web application vulnerability. It occurs
-when the user input is added  to the sql query without proper sanitization.</p>
+when the user input is added Â to the sql query without proper sanitization.</p>
 
 <p class=MsoNormal><b><u>Bwapp (Buggy Web application) Solutions:</u></b></p>
 
@@ -66,18 +66,18 @@ when the user input is added  to the sql query without proper sanitization.</p>
 credentials are bee/bug. Select the SQL injection(GET/Search) from the dropdown
 list. This page allows the user to search movies. </p>
 
-<p class=MsoNormal>                 <img width=512 height=357 id="Picture 3"
+<p class=MsoNormal>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <img width=512 height=357 id="Picture 3"
 src="sql_demo_files/image001.png"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>Start with a basic SQL payload ‘( single quote). Now we are
+<p class=MsoNormal>Start with a basic SQL payload â€˜( single quote). Now we are
 getting my sql error from the database. So this search option is vulnerable to
 SQL injection.</p>
 
-<p class=MsoNormal>                   <img width=512 height=308 id="Picture 2"
+<p class=MsoNormal>Â Â Â Â Â Â Â Â  Â Â Â Â Â Â Â Â Â Â <img width=512 height=308 id="Picture 2"
 src="sql_demo_files/image002.png"></p>
 
 <p class=MsoNormal>By adding a comment(#) at the end of or payload we can
@@ -88,16 +88,16 @@ prevent execution of remaining SQL query.</p>
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>select title,release,character,genre,imdb from movies where
-movie_name='<b>&lt;user input&gt;</b>’</p>
+movie_name='<b>&lt;user input&gt;</b>â€™</p>
 
 <p class=MsoNormal>select title,release,character,genre,imdb from movies where
-movie_name=’<b>’#</b>’</p>
+movie_name=â€™<b>â€™#</b>â€™</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>Anything after the # will be considered as comment.</p>
 
-<p class=MsoNormal>                    <img width=512 height=354 id="Picture 4"
+<p class=MsoNormal>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <img width=512 height=354 id="Picture 4"
 src="sql_demo_files/image003.png"></p>
 
 <p class=MsoNormal>&nbsp;</p>
@@ -107,13 +107,13 @@ number of columns returned by the query.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>                       <img width=512 height=355
+<p class=MsoNormal>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <img width=512 height=355
 id="Picture 5" src="sql_demo_files/image004.png"></p>
 
 <p class=MsoNormal>Continue adding column values until the error disappears and
 the response includes additional content containing the second query values.</p>
 
-<p class=MsoNormal>             <img width=587 height=305 id="Picture 6"
+<p class=MsoNormal>Â Â Â Â Â Â Â Â Â Â Â Â  <img width=587 height=305 id="Picture 6"
 src="sql_demo_files/image005.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
@@ -125,26 +125,26 @@ the type of DBMS we are dealing with.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>               <img width=587 height=316 id="Picture 7"
+<p class=MsoNormal>Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <img width=587 height=316 id="Picture 7"
 src="sql_demo_files/image006.jpg"></p>
 
 <p class=MsoNormal><b>Database enumeration:</b></p>
 
-<p class=MsoNormal>           <img width=598 height=256 id="Picture 8"
+<p class=MsoNormal>Â Â Â Â Â Â  Â Â Â Â <img width=598 height=256 id="Picture 8"
 src="sql_demo_files/image007.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal><b>bWAPP database:</b></p>
 
-<p class=MsoNormal>            <img width=580 height=181 id="Picture 9"
+<p class=MsoNormal>Â Â Â Â Â Â Â  Â Â Â Â <img width=580 height=181 id="Picture 9"
 src="sql_demo_files/image008.png"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal><b>Column names from the user’s table:</b></p>
+<p class=MsoNormal><b>Column names from the userâ€™s table:</b></p>
 
-<p class=MsoNormal>               <img width=512 height=236 id="Picture 10"
+<p class=MsoNormal>Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <img width=512 height=236 id="Picture 10"
 src="sql_demo_files/image009.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
@@ -157,12 +157,12 @@ src="sql_demo_files/image009.jpg"></p>
 92px;margin-top:205px;width:98px;height:10px'><img width=98 height=10
 src="sql_demo_files/image010.png"></span><span style='position:absolute;
 z-index:251659264;margin-left:89px;margin-top:182px;width:98px;height:9px'><img
-width=98 height=9 src="sql_demo_files/image011.png"></span>                  <img
+width=98 height=9 src="sql_demo_files/image011.png"></span>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <img
 width=512 height=236 id="Picture 11" src="sql_demo_files/image012.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>                  <img width=512 height=236 id="Picture 12"
+<p class=MsoNormal>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <img width=512 height=236 id="Picture 12"
 src="sql_demo_files/image013.jpg"></p>
 
 <p class=MsoNormal>&nbsp;</p>
